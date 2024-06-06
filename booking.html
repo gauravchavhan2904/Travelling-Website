@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="event.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallary.html">Gallery</a></li>
+                <li><a href="manage.html">Events</a></li>
+                <li><a href="contact page.html">Contact</a></li>
+                <li><a href="login.html">log out</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+
+    <div class="container">
+        <section id="book">
+            <h2>Book Now</h2>
+            <form id="bookingForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="contact no">contact no:</label>
+                <input type="contact no" id="contact no" name="contact no" required>
+
+
+                <label for="event">event:</label>
+                <input type="event" id="event" name="event" required>
+
+                <label for="food items ">food items:</label>
+                <input type="food items" id="food items" name="food items" required>
+
+                <label for="demand">Your Demands and Expectations:</label>
+                <textarea id="demand" name="demand" required></textarea>
+
+                <label for=" About decoration">About decoration:</label>
+                <textarea id="About decoration" name="About decoration" required></textarea>
+
+
+                <label for="budget">Budget:</label>
+                <input type="number" id="budget" name="budget" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+            <p id="confirmationMessage"></p>
+        </section>
+    </div>
+
+    <script src="booking.js"></script>
+</body>
+
+</html>
